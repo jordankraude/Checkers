@@ -1,0 +1,10 @@
+^C:\USERS\JORDAN\DESKTOP\WORKSPACE\CSE310\CHECKERS\BUILD\CMAKEFILES\5354730CF38B44DB5BBD4C8C17484603\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Jordan/Desktop/Workspace/CSE310/Checkers -BC:/Users/Jordan/Desktop/Workspace/CSE310/Checkers/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Jordan/Desktop/Workspace/CSE310/Checkers/build/Checkers.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/Jordan/Desktop/Workspace/CSE310/Checkers/build/CMakeFiles/checkers.dir
+C:/Users/Jordan/Desktop/Workspace/CSE310/Checkers/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jordan/Desktop/Workspace/CSE310/Checkers/build/CMakeFiles/ZERO_CHECK.dir
